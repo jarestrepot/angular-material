@@ -1,1 +1,13 @@
-<p>list-page works!</p>
+
+<section class="m-4">
+
+  <h1>List Heroes</h1>
+  <mat-divider></mat-divider>
+  <div class="grid bm-8 pt-4 justify-content-center">
+    <div *ngFor="let hero of heroes"
+      class="col-12 sm:col-8 md:col-6 xl:col-4 ">
+      <heroes-hero-card [hero]="hero"></heroes-hero-card>
+    </div>
+  </div>
+
+</section>

@@ -18,7 +18,7 @@ export class LayoutPageComponent {
   public isVisibleMenuBurguer: boolean = false;
   public sidebarItems: MenuItems[] = [
     {
-      label: 'List', icon: 'label', url: './lis'
+      label: 'List', icon: 'label', url: './list'
     },
     {
       label: 'Add', icon: 'add', url: './new-hero'
@@ -28,6 +28,6 @@ export class LayoutPageComponent {
     },
   ];
 
-  
+
 
 }
