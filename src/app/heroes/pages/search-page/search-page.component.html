@@ -1,1 +1,35 @@
-<p>search-page works!</p>
+<div class="flex flex-column p-4 ">
+  <h3>Search</h3>
+  <mat-form-field >
+    <mat-label>Search for hero</mat-label>
+    <input type="text"
+      placeholder="Pick one"
+      matInput
+      [formControl]="searchInput"
+      (input)="searchHero()"
+      [matAutocomplete]="auto"
+    >
+
+
+    <mat-autocomplete autoActiveFirstOption
+      #auto="matAutocomplete"
+      (optionSelected)="onSelectedOption( $event )"
+    >
+      <mat-option *ngFor="let hero of filterHeroes | async" [value]="hero">
+        {{ hero.superhero }}
+      </mat-option>
+
+      <mat-option
+        *ngIf="( filterHeroes | async )?.length === 0 && searchInput.value!.length > 0 "
+        value=""
+      >
+        Nothing was found with the term {{ searchInput.value }}
+      </mat-option>
+
+    </mat-autocomplete>
+
+
+  </mat-form-field>
+
+  
+</div>

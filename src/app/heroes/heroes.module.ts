@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 import { HeroesRoutingModule } from './heroes-routing.module';
 import { HeroPageComponent } from './pages/hero-page/hero-page.component';
@@ -9,6 +11,7 @@ import { NewHeroPageComponent } from './pages/new-hero-page/new-hero-page.compon
 import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { MaterialModule } from '../material/material.module';
 import { CardComponent } from './components/card/card.component';
+import { HeroImagePipe } from './pipes/heroImage.pipe';
 
 
 @NgModule({
@@ -18,12 +21,15 @@ import { CardComponent } from './components/card/card.component';
     ListPageComponent,
     NewHeroPageComponent,
     SearchPageComponent,
-    CardComponent
+    CardComponent,
+    // Declarar los pipes en los módulo para utlizar
+    HeroImagePipe,
   ],
   imports: [
     CommonModule,
     HeroesRoutingModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule,
   ]
 })
 export class HeroesModule { }
