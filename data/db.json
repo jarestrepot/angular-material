@@ -13,7 +13,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
+      "characters": "Bruce Wayne",
+      "alt_img": "https://imgs.search.brave.com/7fNsanX1CrNTP1XKFNtvowgfyxrhRZHED2ytc_td0sY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzAwLzA4/L2RkLzAwMDhkZDBk/MTcwMzM3OGQxMjNj/MzJjYzEyNTI4ZGE1/LmpwZw"
     },
     {
       "id": "dc-superman",
@@ -88,14 +89,6 @@
       "characters": "Dinah Drake, Dinah Lance"
     },
     {
-      "id": "marvel-spider",
-      "superhero": "Spider Man",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Peter Parker",
-      "first_appearance": "Amazing Fantasy #15",
-      "characters": "Peter Parker"
-    },
-    {
       "id": "marvel-captain",
       "superhero": "Captain America",
       "publisher": "Marvel Comics",
@@ -166,6 +159,24 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "KXMlte3",
+      "superhero": "Aquaman",
+      "publisher": "DC Comics",
+      "alter_ego": "Mantarralla",
+      "first_appearance": "Aquaman #1",
+      "characters": "Aquaman",
+      "alt_img": "https://imgs.search.brave.com/uUAGFZYHygeSOWtDUYU7WKmNlVwNAWVJ4emql_G4Ia0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNiL2Ix/LzQ1LzNiYjE0NWUx/MzljZmFiNDVjOGNi/MWQ2OGZmNzU4Yzcy/LmpwZw"
+    },
+    {
+      "id": "Dt7EnDk",
+      "superhero": "Javier",
+      "publisher": "DC Comics",
+      "alter_ego": "Valentina",
+      "first_appearance": "España #1",
+      "characters": "java",
+      "alt_img": "https://imgs.search.brave.com/PJpqDQ2jFfYnY5A0WXuGGSn71nkpj1kuCJ5br7UhrQ4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzk3LzIz/LzcxLzk3MjM3MTg3/MjUzZTMyODVhNTZm/NDNkMWZiMGJjZTBm/LmpwZw"
     }
   ]
 }

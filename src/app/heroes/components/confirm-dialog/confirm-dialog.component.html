@@ -1,0 +1,11 @@
+<div class="p-3">
+  <h1 mat-dialog-title>Are you shure?</h1>
+  <div mat-dialog-content>
+    <p>This process is irreversible, it is about to eliminate a {{ data.superhero }}.</p>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()" color="primary">No Thanks</button>
+    <span class="spacer"></span>
+    <button mat-button (click)="onConfirm()" cdkFocusInitial color="warn">Ok</button>
+  </div>
+</div>
