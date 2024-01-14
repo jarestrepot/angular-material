@@ -30,7 +30,6 @@ export class SearchPageComponent {
   }
 
   onSelectedOption( { option }:MatAutocompleteSelectedEvent ) :void {
-    console.log( option )
     if( !option.value ){
       this.selectedHero = undefined;
     }else{

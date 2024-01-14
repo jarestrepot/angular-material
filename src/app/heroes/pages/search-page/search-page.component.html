@@ -30,6 +30,13 @@
 
 
   </mat-form-field>
+</div>
 
-  
+<div *ngIf="selectedHero"
+  class="w-full h-auto grid align-content-center justify-content-center"
+>
+
+  <heroes-hero-card class="col-4 "
+    [hero]="selectedHero"
+  />
 </div>
