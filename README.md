@@ -7,3 +7,8 @@
 3. Levantar backend ``` npm run backend ```
 4. Levantar la app ``` npm run start ``` o ``` ng serve ```
 
+
+<hr />
+
+
+
