@@ -166,6 +166,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "a6OsS_g",
+      "superhero": "Valentina Alzate",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Valentina",
+      "first_appearance": "Caicedonia",
+      "characters": "java",
+      "alt_img": "https://originalgallery.com/content/products/18906/18906_4378.jpg"
     }
   ]
 }

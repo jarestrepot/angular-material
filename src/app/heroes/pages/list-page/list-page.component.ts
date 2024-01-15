@@ -18,7 +18,6 @@ export class ListPageComponent implements OnInit {
         {
           next: (heroes: Hero[]) => this.heroes = heroes,
           error: (err: Error) => console.error(err),
-          complete: () => console.log('Finaly')
         }
       )
   }
